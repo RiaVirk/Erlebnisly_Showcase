@@ -25,7 +25,7 @@
 
 > 📸 **Dashboard Preview**
 >
-> ![Erlebnisly Dashboard Preview](./public/Erlebnisly_Dashboard.gif)
+> ![Erlebnisly Dashboard Preview](./Erlebnisly_MainPage.png)
 
 ---
 
