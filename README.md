@@ -352,8 +352,8 @@ No middleware shortcut, no trust in route layouts alone. Defense in depth.
 ### Installation
 
 ```bash
-git clone https://github.com/RiaVirk/Erlebnisly.git
-cd erlebnisly
+git clone https://github.com/RiaVirk/******.git
+cd ****
 npm install
 cp .env.example .env.local
 # Fill in environment variables, then:
@@ -400,7 +400,6 @@ CRON_SECRET=...                 # generate: openssl rand -hex 32
 npx prisma migrate deploy   # Apply migrations
 npx prisma generate         # Generate Prisma Client
 npx prisma db seed          # Seed 5 hosts, 50 experiences, 100 bookings
-npm run seed:maria          # (Optional) Seed Maria Virk demo host + customer
 ```
 
 ### Run Tests
@@ -458,9 +457,9 @@ curl -X POST /api/demo/simulate-webhook \
 
 ### Why I Built This
 
-I'm the Digital Manager and Full-Stack Developer at **PERCUMA by CKE**, a multi-venue German hospitality group operating three premium event brands. Every day I see — from the inside — what a real venue business needs from its booking infrastructure: bulletproof capacity handling, clean payment splits between platform and operator, audit trails that survive a tax audit, and German-law compliance that isn't an afterthought.
-
-Erlebnisly is what happens when you take that operational knowledge and pair it with the engineering rigor I built up through Harvard's CS50 program. It's not a tutorial project. It's the platform I'd want for the industry I work in.
+Erlebnisly is a learning project — a peer-to-peer marketplace I built solo, from a blank repository to a production-grade system, to push myself past tutorial territory and into the kind of engineering that real platforms actually demand. The P2P marketplace pattern shows up everywhere — Airbnb, Etsy, Uber, Fiverr, Substack — and every one of those products has to solve the same hard problems: payment splitting between independent hosts, capacity management under concurrency, role-based access across multiple user types, audit trails that survive a tax audit, refund flows, regulatory compliance. Most portfolio projects quietly skip all of that. I wanted to build the version that doesn't.
+The goal was never to launch a business. The goal was to prove — to myself first, and to anyone evaluating my work second — that I can carry a serious system end-to-end: schema design, OAuth-based payment integration, security engineering, state machines, GDPR tooling, AI integration, and the small architectural calls (money as integers, soft deletes, immutable audit logs, server-first rendering, pure financial functions) that separate code which demos well from code which actually survives real users.
+Shipping it as a real EU-compliant product rather than a stripped-down toy was deliberate. GDPR, German VAT, and the 10-year financial retention rule in §257 HGB force the same engineering decisions any EU company faces. If you can ship something that satisfies those constraints, you can ship something that satisfies SOC 2 — the underlying invariants are identical.
 
 ### Biggest Engineering Challenges & How I Solved Them
 
@@ -510,9 +509,8 @@ The schema has 13 models, soft deletes, denormalized search columns (`minPriceCe
 
 ## Author
 
-**Maria Virk** — Digital Manager & Full-Stack Developer
-
-Currently architecting the digital ecosystem for [PERCUMA by CKE](https://percuma.de) — a German hospitality group with three premium event brands. Erlebnisly brings together skills built across Harvard's CS50 program (CS50X, CS50P, CS50W, CS50SQL, CS50T, CS50AI), Google's marketing certifications, and three years of full-time front-end work at Liaison Inc — applied to a product space I work in every day.
+**Maria Virk** — Full-Stack Developer
+Erlebnisly brings together skills built across Harvard's CS50 program (CS50X, CS50P, CS50W, CS50SQL, CS50T, CS50AI), five+ years of professional engineering experience, and a growing portfolio of solo production-grade projects in TypeScript, Next.js, and Prisma. Open to opportunities — full-time, contract, or freelance — anywhere on the marketplace, fintech, B2B SaaS, AI, or general full-stack TypeScript spectrum. Remote or relocating from the Frankfurt area.
 
 - 🌐 Portfolio: [mariavirk.com](https://www.mariavirk.com)
 - 💼 LinkedIn: [linkedin.com/in/maria-virk](https://linkedin.com/in/maria-virk)
