@@ -510,7 +510,7 @@ The schema has 13 models, soft deletes, denormalized search columns (`minPriceCe
 ## Author
 
 **Maria Virk** — Full-Stack Developer
-Erlebnisly brings together skills built across Harvard's CS50 program (CS50X, CS50P, CS50W, CS50SQL, CS50T, CS50AI), five+ years of professional engineering experience, and a growing portfolio of solo production-grade projects in TypeScript, Next.js, and Prisma. Open to opportunities — full-time, contract, or freelance — anywhere on the marketplace, fintech, B2B SaaS, AI, or general full-stack TypeScript spectrum. Remote or relocating from the Frankfurt area.
+Erlebnisly brings together skills built across Harvard's CS50 program (CS50X, CS50P, CS50W, CS50SQL, CS50T, CS50AI), five+ years of professional engineering experience, and a growing portfolio of solo production-grade projects in TypeScript, Next.js, and Prisma. Open to opportunities — full-time, contract, or freelance — anywhere on the marketplace, fintech, P2P SaaS, AI, or general full-stack TypeScript spectrum. Remote or relocating from the Frankfurt area.
 
 - 🌐 Portfolio: [mariavirk.com](https://www.mariavirk.com)
 - 💼 LinkedIn: [linkedin.com/in/maria-virk](https://linkedin.com/in/maria-virk)
