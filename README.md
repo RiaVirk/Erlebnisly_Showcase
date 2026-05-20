@@ -3,7 +3,7 @@
 
 # Erlebnisly
 
-### Production-Grade B2B Activity Booking Marketplace — Berlin, Germany
+### Production-Grade P2P Activity Booking Marketplace — Berlin, Germany
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
